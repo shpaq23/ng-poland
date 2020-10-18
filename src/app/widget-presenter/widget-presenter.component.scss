@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .widget-presenter {
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+    padding: 12px;
+    border: 4px green solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}

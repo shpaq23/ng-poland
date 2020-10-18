@@ -1,0 +1,9 @@
+<h2>Widget Presenter</h2>
+<div class="widget-presenter">
+  <ng-container #widgetOutlet></ng-container>
+</div>
+<div class="buttons">
+  <button (click)="previousWidget()" [disabled]="previousBtnDisabled">Previous Widget</button>
+  <span *ngIf="selectedWidget">{{selectedWidget.instance.name}}</span>
+  <button (click)="nextWidget()" [disabled]="nextBtnDisabled">Next Widget</button>
+</div>

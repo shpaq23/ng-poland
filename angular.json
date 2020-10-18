@@ -145,6 +145,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-poland"
+    }
+  },
+  "defaultProject": "ng-poland",
+  "cli": {
+    "analytics": false
+  }
 }
